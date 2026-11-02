@@ -54,22 +54,34 @@ This project establishes a isolated virtual lab environment using **VirtualBox**
 
 * Installed **7-Zip** to handle archive extraction (`.7z`) of virtual machine images.
 * Installed **VirtualBox 7.2** hypervisor.
+#### Practical Evidence
+
+![VirtualBox Interface](Week%201%20Screenshots/Screenshot%20virtualbox%20interface.png)
 
 ### Step 2: Virtual Network Provisioning
 
 * Built a custom **NAT Network** (`NatNetwork`) with CIDR `10.0.0.0/24`.
 * *Design Rationale:* Unlike default NAT (which isolates guests from each other), a NAT Network allows inter-machine communication between attacker and victim VMs while sharing outbound internet access.
+#### Practical Evidence
+
+![Network Configuration](Week%201%20Screenshots/Screenshot%20network%20settings.png)
 
 ### Step 3: VM Import & Hardware Setup
 
 * Imported Kali Linux appliance into VirtualBox.
 * Set **Adapter 1** to *NAT Network* (`NatNetwork`) using the **Intel PRO/1000 MT Desktop** emulator.
 * Allocated **2048 MB RAM** and established host-to-guest shared folders.
+#### Practical Evidence
+
+![Kali Linux Deployment](Week%201%20Screenshots/Screenshot%20kali%20linux.png)
 
 ### Step 4: Network Addressing & Baselining
 
 * Configured Kali Linux with a predictable static IP: `10.0.0.2/24`.
 * Created baseline snapshot: `Clean Kali - Network Setup` to preserve a pristine state before security operations.
+#### Practical Evidence
+
+![Kali Linux Network Settings](Week%201%20Screenshots/Screenshot%20kali%20network%20settings.png)
 
 ---
 
@@ -83,6 +95,9 @@ This project establishes a isolated virtual lab environment using **VirtualBox**
 | **DNS Resolution** | `nslookup networkwalks.com` | Domain successfully resolved | **PASSED** |
 | **Core Tooling** | `nmap --version` | Valid version header returned | **PASSED** |
 | **State Recovery** | *Snapshot Restore Test* | Baseline network state restored | **PASSED** |
+#### Practical Evidence
+
+![Network Connectivity Test](Week%201%20Screenshots/Screenshot%20connectivity%20test.png)
 
 ---
 
