@@ -46,7 +46,7 @@ The primary focus of this portfolio is to demonstrate practical expertise in:
 
 | Milestone | Project Description | Key Accomplishments | Documentation Link | Status |
 | --- | --- | --- | --- | --- |
-| **Week 01** | **Virtualization, Kali Linux Deployment & NAT Networking** | Hypervisor setup, NAT Network `10.0.0.0/24`, static IP configuration, and clean VM baseline recovery snapshot. | View Week 1 Lab Documentation | **Completed** |
+| **Week 01** | **Virtualization, Kali Linux Deployment & NAT Networking** | Hypervisor setup, NAT Network `10.0.0.0/24`, static IP configuration, and clean VM baseline recovery snapshot. | [View Week 1 Lab Documentation](Week-1-Project-Documentation.md) | **Completed** |
 | **SOC Task** | **Packet Capturing & Network Traffic Analysis** | Live interface packet capture, protocol filtering, and traffic inspection using Wireshark. | View SOC Analysis Documentation | **Completed** |
 
 ---
