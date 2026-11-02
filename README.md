@@ -16,6 +16,7 @@ The primary focus of this portfolio is to demonstrate practical expertise in:
 * **Hypervisor Management & Virtual Lab Infrastructure**
 * **Packet Capture & Traffic Analysis**
 * **System Troubleshooting & Documentation**
+* **Penetration Testing**
 
 ---
 
