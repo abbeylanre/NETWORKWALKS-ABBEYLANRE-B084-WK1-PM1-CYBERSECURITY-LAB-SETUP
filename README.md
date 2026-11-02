@@ -73,7 +73,7 @@ This project establishes a isolated virtual lab environment using **VirtualBox**
 * Allocated **2048 MB RAM** and established host-to-guest shared folders.
 #### Practical Evidence
 
-![Kali Linux Deployment](Week%201%20Screenshots/Screenshot%20kali%20linux.png)
+![Kali Linux Deployment](Week%201%20Screenshots/Screenshot%20%20kali%20linux.png)
 
 ### Step 4: Network Addressing & Baselining
 
