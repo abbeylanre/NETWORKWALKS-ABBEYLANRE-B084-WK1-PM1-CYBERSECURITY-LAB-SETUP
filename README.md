@@ -81,7 +81,7 @@ This project establishes a isolated virtual lab environment using **VirtualBox**
 * Created baseline snapshot: `Clean Kali - Network Setup` to preserve a pristine state before security operations.
 #### Practical Evidence
 
-![Kali Linux Network Settings](Week%201%20Screenshots/Screenshot%20kali%20network%20settings.png)
+![Kali Linux Network Settings](Week%201%20Screenshots/Screenshot%20%20kali%20network%20settings.png)
 
 ---
 
@@ -97,7 +97,7 @@ This project establishes a isolated virtual lab environment using **VirtualBox**
 | **State Recovery** | *Snapshot Restore Test* | Baseline network state restored | **PASSED** |
 #### Practical Evidence
 
-![Network Connectivity Test](Week%201%20Screenshots/Screenshot%20connectivity%20test.png)
+![Network Connectivity Test](Week%201%20Screenshots/Screenshot%20%20connectivity%20test.png)
 
 ---
 
